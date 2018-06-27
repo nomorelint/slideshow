@@ -1,18 +1,18 @@
-#Slideshow viewer
-##A python-based slideshow viewer using Tkinter
+# Slideshow viewer
+## A python-based slideshow viewer using Tkinter
 
 This viewer allows you to run slideshows for multiple directories with support for stopping, starting, saving, and resetting your position.
 
 
-##Requirements
+## Requirements
 
 All you need is python3 and Tkinter installed on your computer.
 
-##Usage:
+## Usage:
 
 Run this program from the terminal with `python3 slideshow.py <directory>` for as many directories as you wish.
 
-######Controls:
+###### Controls:
 
 * Escape to exit program
 * Left to go to previous slide. Activates manual mode.
@@ -24,7 +24,7 @@ Run this program from the terminal with `python3 slideshow.py <directory>` for a
 
 *Note:* When manual mode is set, the program will save the position of the last slide played. When you start the slideshow again, it will go to the last saved position. This also applies if you are going to the next or previous slideshow.
 
-######Command line options:
+###### Command line options:
 
 * -h --help to see the program's help menu
 * -t --transition Sets the time spent on each slide in seconds.
